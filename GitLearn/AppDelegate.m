@@ -20,14 +20,14 @@
     
 //    第一次提交
     
-//<<<<<<< HEAD
+
     
     [self demand1];
 //=======
 //    bug1 解决
     
 //    bug2 解决
-//>>>>>>> 91e9bf2cd608723a6d39ca1b6f159f762246f6a3
+
     return YES;
 }
 
