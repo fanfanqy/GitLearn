@@ -28,6 +28,7 @@
     
 //    bug2 解决
 
+    [self resolvebug3];
     return YES;
 }
 
@@ -37,6 +38,10 @@
 
 - (void)demand2{
     NSLog(@"demand2");
+}
+
+- (void)resolvebug3{
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
