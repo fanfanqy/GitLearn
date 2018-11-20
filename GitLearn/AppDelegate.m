@@ -46,6 +46,10 @@
     NSLog(@"demand3");
 }
 
+- (void)demand4{
+    NSLog(@"demand4");
+}
+
 - (void)resolvebug3{
     
 }
