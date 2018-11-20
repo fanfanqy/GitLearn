@@ -23,6 +23,8 @@
     [self demand2];
     
     [self demand1];
+    
+    [self demand3];
 //=======
 //    bug1 解决
     
@@ -38,6 +40,10 @@
 
 - (void)demand2{
     NSLog(@"demand2");
+}
+
+- (void)demand3{
+    NSLog(@"demand3");
 }
 
 - (void)resolvebug3{
