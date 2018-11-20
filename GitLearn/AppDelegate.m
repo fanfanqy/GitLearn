@@ -20,7 +20,7 @@
     
 //    第一次提交
     
-
+    [self demand2];
     
     [self demand1];
 //=======
