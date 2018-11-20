@@ -19,6 +19,8 @@
     // Override point for customization after application launch.
     
 //    第一次提交
+    
+//    bug1 解决
     return YES;
 }
 
