@@ -1,0 +1,56 @@
+From 60e32b31983781ffac20f35ffcb05e8619ba077f Mon Sep 17 00:00:00 2001
+From: EDZ <1012256310@qq.com>
+Date: Tue, 20 Nov 2018 15:18:39 +0800
+Subject: [PATCH] =?UTF-8?q?bug1=20=E8=A7=A3=E5=86=B3?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ GitLearn/AppDelegate.m | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/GitLearn/AppDelegate.m b/GitLearn/AppDelegate.m
+index eb6770b..5dc1193 100644
+--- a/GitLearn/AppDelegate.m
++++ b/GitLearn/AppDelegate.m
+@@ -19,6 +19,8 @@
+     // Override point for customization after application launch.
+     
+ //    第一次提交
++    
++//    bug1 解决
+     return YES;
+ }
+ 
+-- 
+2.18.0
+
+From 91e9bf2cd608723a6d39ca1b6f159f762246f6a3 Mon Sep 17 00:00:00 2001
+From: EDZ <1012256310@qq.com>
+Date: Tue, 20 Nov 2018 15:25:40 +0800
+Subject: [PATCH] =?UTF-8?q?bug=202=E8=A7=A3=E5=86=B3?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ GitLearn/AppDelegate.m | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/GitLearn/AppDelegate.m b/GitLearn/AppDelegate.m
+index 5dc1193..adcb4b2 100644
+--- a/GitLearn/AppDelegate.m
++++ b/GitLearn/AppDelegate.m
+@@ -21,6 +21,8 @@
+ //    第一次提交
+     
+ //    bug1 解决
++    
++//    bug2 解决
+     return YES;
+ }
+ 
+-- 
+2.18.0
+
