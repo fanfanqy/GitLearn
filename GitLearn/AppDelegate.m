@@ -23,8 +23,8 @@
     [self demand2];
     
     [self demand1];
-    
-    [self demand3];
+//    master 注释并修改  [self demand3] 修改为[self demand5]
+    [self demand5];
 //=======
 //    bug1 解决
     
@@ -46,8 +46,21 @@
     NSLog(@"demand3");
 }
 
+
+- (void)demand4{
+    NSLog(@"demand4");
+}
+
+- (void)demand5{
+    
+}
+
 - (void)resolvebug3{
     
+}
+
+- (void)master{
+//    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
