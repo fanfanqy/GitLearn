@@ -23,8 +23,8 @@
     [self demand2];
     
     [self demand1];
-    
-    [self demand3];
+//    master 注释并修改  [self demand3] 修改为[self demand5]
+    [self demand5];
 //=======
 //    bug1 解决
     
@@ -50,9 +50,14 @@
     NSLog(@"demand4");
 }
 
+- (void)demand5{
+    
+}
+
 - (void)resolvebug3{
     
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
